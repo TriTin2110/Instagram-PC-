@@ -2,7 +2,6 @@
         display: flex;
         flex-direction: row;
         margin-top: -8px;
-        margin-bottom: -10px;
 }
 
 #leftSide {
@@ -118,7 +117,35 @@
 }
 
 #rightSide {
-        background-color: aqua;
+        background-color: #F8F8F8;
         width: 408px;
         height: 713px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+}
+
+.rightSideLabelContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+}
+
+.rightSideNameAvatar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+
+.avatarSize {
+        width: 40px;
+        height: 40px;
+}
+
+.status {
+        font-size: 15px;
+        color: #838383;
+        margin-top: 5px
 }
